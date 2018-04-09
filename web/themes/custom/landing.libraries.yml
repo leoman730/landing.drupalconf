@@ -1,0 +1,6 @@
+global:
+  css:
+    base:
+      https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css: { external: true }
+    theme:
+      css/styles.css: {}

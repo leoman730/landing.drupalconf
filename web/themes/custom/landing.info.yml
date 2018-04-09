@@ -1,0 +1,7 @@
+name: Landing Theme
+core: 8.x
+type: theme
+description: A simple theme to style landing page
+
+libraries:
+  - landing/global
