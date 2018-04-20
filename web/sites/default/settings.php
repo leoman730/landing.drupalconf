@@ -781,19 +781,37 @@ $settings['entity_update_batch_size'] = 50;
  *
  * Keep this code block at the end of this file to take full effect.
  */
+
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$config_directories['sync'] = '../config/sync';
-$databases['default']['default'] = array (
-  'database' => 'landing',
-  'username' => 'user',
-  'password' => 'user',
-  'prefix' => '',
-  'host' => '192.168.64.100',
-  'port' => '33067',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['install_profile'] = 'standard';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
+/* $config_directories['sync'] = '../config/sync'; */
+/* $databases['default']['default'] = array ( */
+/*   'database' => 'landing', */
+/*   'username' => 'user', */
+/*   'password' => 'user', */
+/*   'prefix' => '', */
+/*   'host' => '192.168.64.100', */
+/*   'port' => '33067', */
+/*   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql', */
+/*   'driver' => 'mysql', */
+/* ); */
+/* $settings['install_profile'] = 'standard'; */
+
+
+// $config_directories['sync'] = '../config/sync';
+// $databases['default']['default'] = array (
+//   'database' => 'landing',
+//   'username' => 'user',
+//   'password' => 'user',
+//   'prefix' => '',
+//   'host' => '192.168.64.100',
+//   'port' => '33067',
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'driver' => 'mysql',
+// );
+// $settings['install_profile'] = 'standard';
+
+
